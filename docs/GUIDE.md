@@ -640,13 +640,13 @@ The idea comes from Minecraft. Block picking follows Amanatides & Woo (1987). Co
    ```bash
    git init
    git add .
-   git commit -m "MetroCraft v1.0" -m "Co-authored-by: Kazi Abu Jafor Arif <arif-email@example.com>"
+   git commit -m "MetroCraft v1.0"
    git branch -M main
    git remote add origin https://github.com/RejaulKorimSadi/MetroCraft.git
    git push -u origin main
    ```
 
-   `.gitignore` keeps build output, saved worlds and screenshots out of the repository. `CITATION.cff` makes GitHub show a "Cite this repository" button with both names. The `Co-authored-by` line puts Arif on the commit as a contributor; use the email his GitHub account uses so GitHub links it to his profile. Adding him under Settings, Collaborators also lets him push.
+   `.gitignore` keeps build output, saved worlds and screenshots out of the repository. `CITATION.cff` makes GitHub show a "Cite this repository" button with both names. To give Arif push access, add him under the repository's Settings, Collaborators.
 2. **Demo video**, 2 to 4 minutes:
    - the title screen, with the roof signboard behind the card
    - walk from the entrance plaza through the METROPOLITAN UNIVERSITY gate, past the flags
